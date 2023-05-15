@@ -1,5 +1,5 @@
 {
-  "name": "authhook",
+  "name": "@adorable/authhook",
   "version": "1.0.0",
   "description": "simple auth hook'",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "trickyc0d3r",
   "license": "ISC",
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.18.1",
@@ -22,5 +22,15 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:trickyc0d3r/authook.git"
-  }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "@react-native-async-storage/async-storage": "^1.18.1",
+    "jwt-decode": "^3.1.2"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "auth-hook"
+  ]
 }
