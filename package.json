@@ -1,8 +1,9 @@
 {
-  "name": "@adorable/authhook",
+  "name": "tcr-authhook",
   "version": "1.0.0",
   "description": "simple auth hook'",
-  "main": "index.js",
+  "main": "./dist/authentication/index.js",
+  "types": "./dist/authentication/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,9 +25,9 @@
     "url": "git@github.com:trickyc0d3r/authook.git"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
     "@react-native-async-storage/async-storage": "^1.18.1",
-    "jwt-decode": "^3.1.2"
+    "jwt-decode": "^3.1.2",
+    "react": "^18.2.0"
   },
   "keywords": [
     "react",
